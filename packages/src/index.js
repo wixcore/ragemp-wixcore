@@ -8,5 +8,5 @@
 
 (async () => {
   await require('./wixcore/nucleus')();
-  await require('./wixcore/events')();
+  await require('./wixcore/feature')();
 })();
